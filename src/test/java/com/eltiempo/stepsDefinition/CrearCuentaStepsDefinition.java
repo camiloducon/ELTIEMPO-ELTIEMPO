@@ -29,7 +29,7 @@ public class CrearCuentaStepsDefinition {
 		rene.can(BrowseTheWeb.with(hisBrowser));
 	}
 	
-	@Dado("^que Rene requiere crear una cuenta en ELTIEMPO (\\d+)$")
+	@Dado("^que Rene requiere crear una cuenta en ELTIEMPO (.*)$")
 	public void queReneRequiereCrearUnaCuentaEnELTIEMPO(int arg1, DataTable arg2) throws Exception {
 		rene.wasAbleTo(AbrirNavegador.en());
 		rene.wasAbleTo(IngresarEnIniciarSesion.para());

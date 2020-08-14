@@ -8,11 +8,11 @@ Característica: Crear Cuenta
 
   Esquema del escenario: Creacion cuenta exitosa
     Dado que Rene requiere crear una cuenta en ELTIEMPO <Fila>
-      | Ruta Excel                                 | Pestaña |
-      | src/test/resources/data/DatosELTIEMPO.xlsx |         |
+      | Ruta Excel                                 | Pestaña     |
+      | src/test/resources/data/DatosELTIEMPO.xlsx | CrearCuenta |
     Cuando completa el formulario
     Entonces ve como resultado la creacion de su cuenta
 
     Ejemplos: 
       | Fila |
-      |    2 |
+      |    1 |
